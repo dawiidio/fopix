@@ -5,6 +5,7 @@
   "main": "out/index.js",
   "types": "index.d.ts",
   "type": "module",
+  "private": false,
   "scripts": {
     "dev": "vite dev",
     "build": "tsc && tsc-alias",
@@ -26,6 +27,9 @@
   "files": [
     "out"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "license": "ISC",
   "dependencies": {
     "@dawiidio/tools": "^0.7.3",
