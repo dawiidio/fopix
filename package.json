@@ -1,0 +1,39 @@
+{
+  "name": "fopix",
+  "version": "1.0.0",
+  "description": "Fopix is a simple tool for creating 2D text transitions based on particle cloud",
+  "main": "out/index.js",
+  "types": "index.d.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "vite dev",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["fopix", "pixelart", "animations", "font", "pixel", "threejs"],
+  "author": {
+    "email": "dawid@dawiid.io",
+    "name": "Dawid Wojda",
+    "url": "https://dawiid.io/"
+  },
+  "files": [
+    "out"
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "@dawiidio/tools": "^0.7.3",
+    "chroma-js": "^2.4.2",
+    "three": "^0.157.0"
+  },
+  "devDependencies": {
+    "@types/chroma-js": "^2.4.1",
+    "@types/node": "^20.8.6",
+    "@types/react": "^18.2.28",
+    "@types/react-dom": "^18.2.13",
+    "@types/three": "^0.157.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "typescript": "^5.2.2",
+    "vite": "^4.4.11"
+  }
+}

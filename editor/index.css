@@ -1,0 +1,27 @@
+.buttons {
+    display: flex;
+}
+
+.buttons &>button {
+    margin: 16px 0;
+}
+
+button.active {
+    background-color: #c4c4c4;
+}
+
+.input-styles {
+    display: flex;
+    align-items: center;
+    padding: 4px;
+}
+
+.input-styles label {
+    width: 80px;
+}
+
+.input-styles input, .input-styles textarea {
+    font-size: 1em;
+    margin-left: 8px;
+    padding: 4px;
+}
