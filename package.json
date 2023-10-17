@@ -1,6 +1,6 @@
 {
-  "name": "fopix",
-  "version": "1.0.0",
+  "name": "@dawiidio/fopix",
+  "version": "0.0.1",
   "description": "Fopix is a simple tool for creating 2D text transitions based on particle cloud",
   "main": "out/index.js",
   "types": "index.d.ts",

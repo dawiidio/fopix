@@ -1,3 +1,4 @@
+// change ~/index to @dawiidio/fopix
 import { createFopix, SectionData, SignExportFormat } from '~/index';
 
 // exported from editor, editor is available after running "npm run dev"

@@ -1,3 +1,4 @@
+// change ~/index to @dawiidio/fopix
 import { createFopix, SectionData } from '~/index';
 
 // just a basic section with a bunch of words and tags
