@@ -7,10 +7,17 @@
   "type": "module",
   "scripts": {
     "dev": "vite dev",
-    "build": "tsc",
+    "build": "tsc && tsc-alias",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["fopix", "pixelart", "animations", "font", "pixel", "threejs"],
+  "keywords": [
+    "fopix",
+    "pixelart",
+    "animations",
+    "font",
+    "pixel",
+    "threejs"
+  ],
   "author": {
     "email": "dawid@dawiid.io",
     "name": "Dawid Wojda",
@@ -33,6 +40,7 @@
     "@types/three": "^0.157.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "tsc-alias": "^1.8.8",
     "typescript": "^5.2.2",
     "vite": "^4.4.11"
   }
